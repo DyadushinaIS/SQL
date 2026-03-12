@@ -13,6 +13,6 @@ FROM	Students, Groups, Directions
 WHERE	[group]		=	group_id
 AND		direction	=	direction_id
 ORDER BY[Возраст]	DESC
---		ASC	 - Ascending (?? ???????????)
---		DESC - Descending(?? ????????)
+--		ASC	 - Ascending (по возрастанию)
+--		DESC - Descending(по убыванию)
 ;
